@@ -4,11 +4,11 @@ A modern and responsive landing page for a burger restaurant, built using HTML, 
 
 ## 🌐 Live Demo
 
-[View Live Website](YOUR_GITHUB_PAGES_LINK)
+[[View Live Website](YOUR_GITHUB_PAGES_LINK)](https://ahmedmaher-cse.github.io/burger-house-landing-page/)
 
 ## 📸 Preview
 
-![Burger House Preview](preview.png)
+![Burger House Preview](Preview.png)
 
 ## ✨ Features
 
