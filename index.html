@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Burger House - premium burgers, fresh ingredients and delicious meals.">
+  <title>Burger House — Fresh. Juicy. Delicious.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    <p>🔥 Free delivery on orders over $25 <span>•</span> Open daily 11:00 AM — 12:00 AM</p>
+  </div>
+
+  <nav class="navbar">
+    <a class="logo" href="#home">BURGER<span>HOUSE</span></a>
+
+    <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#story">Our Story</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#offers">Offers</a>
+          <a href="#location">Visit Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+    <a href="#menu" class="nav-order">Order Now <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> HANDCRAFTED BURGERS</div>
+        <h1>Made for<br><em>burger lovers.</em></h1>
+        <p>Big, juicy and made fresh to order. Premium ingredients, bold flavors and the kind of burger you think about tomorrow.</p>
+
+        <div class="hero-actions">
+          <a class="primary-btn" href="#menu">Explore Menu <span>→</span></a>
+          <a class="text-btn" href="#story">Our story <span>↗</span></a>
+        </div>
+
+        <div class="hero-rating">
+          <div class="avatars">
+            <span>AM</span><span>SK</span><span>OM</span>
+          </div>
+          <div>
+            <strong>4.9/5</strong>
+            <p>from 2,000+ happy customers</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1100&q=90" alt="Juicy burger with fresh vegetables">
+        </div>
+        <div class="floating-card">
+          <span class="mini-icon">★</span>
+          <div><strong>Chef's Pick</strong><small>Classic House Burger</small></div>
+        </div>
+        <div class="price-card"><small>ONLY</small><strong>$8.99</strong></div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div><span>01</span><strong>Fresh ingredients</strong><small>Selected every morning</small></div>
+      <div><span>02</span><strong>Made to order</strong><small>Never sitting around</small></div>
+      <div><span>03</span><strong>Fast delivery</strong><small>Hot at your door</small></div>
+      <div><span>04</span><strong>Easy ordering</strong><small>Simple & secure</small></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-top">
+        <div>
+          <div class="eyebrow"><span></span> OUR FAVORITES</div>
+          <h2>Good food.<br><em>No shortcuts.</em></h2>
+        </div>
+        <p>We keep the menu focused on the things we do best — juicy burgers, crispy sides and refreshing drinks.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="active">Burgers</button>
+        <button>Sides</button>
+        <button>Drinks</button>
+      </div>
+
+      <div class="products">
+        <article class="product featured">
+          <div class="product-image">
+            <span class="badge">BEST SELLER</span>
+            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=90" alt="Classic house burger">
+          </div>
+          <div class="product-body">
+            <div class="product-line"><h3>Classic House</h3><strong>$8.99</strong></div>
+            <p>Beef patty, aged cheddar, lettuce, tomato, pickles & our signature sauce.</p>
+            <button class="add-btn">Add to order <span>+</span></button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-image">
+            <span class="badge hot">CHEF'S PICK</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Wendy%27s_Double_Stack.jpg" alt="Double cheese burger" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1553979459-d2229ba7433a?auto=format&fit=crop&w=900&q=90'">
+          </div>
+          <div class="product-body">
+            <div class="product-line"><h3>Double Cheese</h3><strong>$10.99</strong></div>
+            <p>Two smashed beef patties, double cheddar, caramelized onions & house sauce.</p>
+            <button class="add-btn">Add to order <span>+</span></button>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=900&q=90" alt="Crispy chicken burger">
+          </div>
+          <div class="product-body">
+            <div class="product-line"><h3>Crispy Chicken</h3><strong>$9.49</strong></div>
+            <p>Crispy chicken, shredded lettuce, pickles & creamy pepper dressing.</p>
+            <button class="add-btn">Add to order <span>+</span></button>
+          </div>
+        </article>
+      </div>
+
+      <a class="outline-btn" href="#contact">View full menu <span>↗</span></a>
+    </section>
+
+    <section class="special-section">
+      <div class="special-image">
+        <img src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=1200&q=90" alt="Burger meal with fries">
+        <div class="image-note"><span>LIMITED</span><strong>WEEKEND<br>DEAL</strong></div>
+      </div>
+      <div class="special-copy">
+        <div class="eyebrow"><span></span> THIS WEEKEND</div>
+        <h2>The House<br><em>Combo.</em></h2>
+        <p>Our signature burger, golden fries and a cold drink. Everything you need for a seriously good meal.</p>
+        <div class="deal">
+          <div><small>REGULAR</small><s>$15.99</s></div>
+          <div><small>DEAL PRICE</small><strong>$12.99</strong></div>
+        </div>
+        <a class="primary-btn" href="#contact">Get the deal <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="story-section section" id="story">
+      <div class="story-grid">
+        <div class="story-copy">
+          <div class="eyebrow"><span></span> OUR STORY</div>
+          <h2>Simple idea.<br><em>Serious flavor.</em></h2>
+          <p>We started Burger House because we wanted a place where a really good burger didn't need a complicated menu or a fancy attitude.</p>
+          <p>Fresh ingredients, honest portions and recipes that we actually love eating ourselves. That's still what we do every day.</p>
+          <a class="text-btn" href="#contact">More about us <span>↗</span></a>
+          <div class="stats">
+            <div><strong>5+</strong><small>Years serving</small></div>
+            <div><strong>20K</strong><small>Happy customers</small></div>
+            <div><strong>15</strong><small>Menu favorites</small></div>
+          </div>
+        </div>
+        <div class="story-gallery">
+          <img class="large" src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=90" alt="Burger and fries">
+          <img class="small" src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=90" alt="Crispy french fries">
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section section" id="reviews">
+      <div class="center-heading">
+        <div class="eyebrow centered"><span></span> CUSTOMER LOVE <span></span></div>
+        <h2>Don't just take<br><em>our word for it.</em></h2>
+        <p>Thousands of orders later, here's what our customers have to say.</p>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Honestly one of the best burgers I've had in a while. The meat was juicy and the sauce was perfect.”</p>
+          <div class="reviewer"><div>AM</div><span><strong>Ahmed M.</strong><small>Verified customer</small></span></div>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Everything arrived hot and fresh. The double cheese is officially my new favorite.”</p>
+          <div class="reviewer"><div>SK</div><span><strong>Sarah K.</strong><small>Verified customer</small></span></div>
+        </article>
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>“Great portions, quick delivery and really friendly service. Definitely coming back.”</p>
+          <div class="reviewer"><div>OA</div><span><strong>Omar A.</strong><small>Verified customer</small></span></div>
+        </article>
+      </div>
+    </section>
+
+    
+<section class="section" id="why-us">
+  <div class="container">
+    <div class="section-top">
+      <div><p class="eyebrow">WHY US</p><h2>Good food. Good mood.</h2></div>
+      <p class="section-subtitle">Fresh ingredients, generous portions and burgers made to order.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature"><div class="feature-icon">🥩</div><h3>Fresh Ingredients</h3><p>Quality ingredients prepared fresh for every order.</p></div>
+      <div class="feature"><div class="feature-icon">🔥</div><h3>Made To Order</h3><p>Hot, fresh and cooked when you order it.</p></div>
+      <div class="feature"><div class="feature-icon">⚡</div><h3>Fast Service</h3><p>Quick preparation without sacrificing taste.</p></div>
+      <div class="feature"><div class="feature-icon">❤️</div><h3>Made With Care</h3><p>A better burger experience from first bite to last.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="offers">
+  <div class="container">
+    <div class="section-top">
+      <div><p class="eyebrow">SPECIAL OFFERS</p><h2>Deals worth coming back for.</h2></div>
+      <p class="section-subtitle">Easy combos for lunch, dinner or a weekend treat.</p>
+    </div>
+    <div class="offers-grid">
+      <div class="feature"><h3>Classic Combo</h3><p>Burger, crispy fries and a cold drink.</p><strong>$9.99</strong></div>
+      <div class="feature"><h3>Double Deal</h3><p>Double cheese burger with fries and a drink.</p><strong>$12.99</strong></div>
+      <div class="feature"><h3>Family Box</h3><p>Four burgers, fries and drinks to share.</p><strong>$29.99</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="location">
+  <div class="container contact-inner">
+    <div>
+      <p class="eyebrow">VISIT US</p>
+      <h2>Your next favorite burger is waiting.</h2>
+      <p>Drop by, grab a seat and enjoy your meal fresh from the grill.</p>
+    </div>
+    <div class="contact-card">
+      <div><small>Location</small><strong>Downtown, Cairo</strong></div>
+      <div><small>Opening hours</small><strong>11:00 AM – 12:00 AM</strong></div>
+      <div><small>Phone</small><strong>+20 100 000 0000</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Ready for your next burger?</h2>
+          <p>Order your favorite meal or come visit us. Fresh food, friendly service, every day.</p>
+        </div>
+        <div class="contact-card">
+          <div><small>Call us</small><strong>+20 100 000 0000</strong></div>
+          <div><small>Opening hours</small><strong>11:00 AM – 12:00 AM</strong></div>
+          <div><small>Location</small><strong>Downtown, Cairo</strong></div>
+          <a class="btn primary-btn" href="#menu">Order Now</a>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+  <footer>
+    <div class="footer-main">
+      <div>
+        <a class="logo footer-logo" href="#home">BURGER<span>HOUSE</span></a>
+        <p>Fresh burgers. Good people. No shortcuts.</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+      </div>
+      <div class="socials"><a href="#">IG</a><a href="#">FB</a><a href="#">TT</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Burger House</span><span>Made fresh every day.</span></div>
+  </footer>
+
+  <div class="toast" id="toast">Added to your order ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
